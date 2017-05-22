@@ -1,17 +1,17 @@
-package Lu;
 class Person{
 	public String name;
-	public static int eyeNum;
+	public static int t = 0;
 }
 
 public class PersonTest{
+	private int i = 9;
 	public static void main(String[] args){
-		System.out.println("Person eyeNum is " + Person.eyeNum);
-		Person p = new Person();
-		p.name = "123";
-		p.eyeNum = 4;
-		System.out.println("Person eyeNum is " + p.eyeNum);
-		Person p2 = new Person();
-		System.out.println("Person eyeNum is " + p2.eyeNum);
+		PersonTest p = new PersonTest();
+		p.fo();
+	}
+
+	private void fo(){
+		int i;
+		System.out.println(this.i);
 	}
 }

@@ -1,31 +1,55 @@
+class Root{
+	static{
+		System.out.println("Root static");
+	}
 
-import java.util.Arrays;
+	{
+		System.out.println("Root normal");
+	}
 
-public class test1
-{
- public static int rank(int key, int[] a)
- {
-  int lo = 0;
-  int hi = a.length - 1;
-  while(lo < hi){
-   int mid = lo + (hi - lo)/2;
-   if (key < a[mid]) hi = mid - 1;
-   else if (key > a[mid]) lo = mid + 1;
-   else return mid;
-  }
-  return -1;
- }
-
- public static void main(String[] args) 
- {
-  int[] whitelist = In.readInts(args[0]);
-  Arrays.sort(whitelist);
-  while(!StdIn.isEmpty())
-  {
-   int key = StdIn.readInts();
-   if(rank(key, whitelist) == -1)
-    StdOut.println(key);
-  }
- }
+	public Root(){
+		System.out.println("Root without parameters");
+	}
 }
 
+class Mid extends Root{
+	static{
+		System.out.println("Mid static");
+	}
+
+	{
+		System.out.println("Mid normal");
+	}
+
+	public Mid(){
+		System.out.println("Mid without parameters");
+	}
+
+	public Mid(String msg){
+		this();
+		System.out.println("Mid with parameter" + msg);
+	}
+}
+
+class Leaf extends Mid{
+	static{
+		System.out.println("Leaf static");
+	}
+
+	{
+		System.out.println("Leaf normal");
+	}
+
+	public Leaf(){
+		super("Hello");
+		System.out.println("Leaf without parameters");
+	}
+
+}
+
+public class Test{
+	public static void main(String[] args){
+		new Leaf();
+		new Leaf();
+	}
+}

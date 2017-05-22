@@ -1,8 +1,7 @@
 public class ArgsTest{
 	public static void main(String[] args){
-		System.out.println(args.length);
-		for(String arg : args){    
-			System.out.println(arg);
-		}
+		System.out.println(args[0]);
+		for(String s : args)
+			System.out.println(s);
 	}
 }

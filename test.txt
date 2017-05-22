@@ -1,0 +1,2 @@
+normal string
+PrintStreamTest@7852e922

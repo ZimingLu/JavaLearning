@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> 疯狂Java联盟 企业应用开发与实践 CrazyIt做最受欢迎的Java论坛</title>
+<meta name="keywords" content="Java论坛,疯狂Java,Android,学习,论坛,Java知识论坛,Ajax,Struts,Hibernate,Spring,EJB,JSF,REST" />
+<meta name="description" content=" 疯狂Java联盟 Java论坛,疯狂Java,Java编程,Java学习论坛,Android学习,Android论坛,Android实例,Java Web开发,Java企业应用,Java设计模式,Java开源框架,Spring,Hibernate,Struts,EJB, EJB 3,AJAX开发, 精通Hibernate,Java应用服务器,REST,JavaScript编程,TDD,软件配置管理,项目管理UML" />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<link rel="archives" title="疯狂Java联盟" href="http://www.crazyit.org/archiver/" />
+<link rel="stylesheet" type="text/css" href="forumdata/cache/style_9_common.css?kZv" />
+<script type="text/javascript">var STYLEID = '9', IMGDIR = 'images/default', VERHASH = 'kZv', charset = 'utf-8', discuz_uid = 0, cookiedomain = '.crazyit.org', cookiepath = '/', attackevasive = '0', disallowfloat = '', creditnotice = '1|疯狂金币|,2|疯狂水晶|,3|疯狂勋章|', gid = 0, fid = parseInt('0'), tid = parseInt('0')</script>
+<script src="forumdata/cache/common.js?kZv" type="text/javascript"></script>
+</head>
+
+<body id="attachment" onkeydown="if(event.keyCode==27) return false;">
+
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+
+<div id="header">
+<div class="wrap s_clear">
+<h2><a href="index.php" title="疯狂Java联盟"><img src="templates/colors/images/logo.jpg" alt="疯狂Java联盟" border="0" /></a></h2>
+<div id="umenu">
+<a href="joincrazy.php" onclick="showWindow('register', this.href);return false;" class="noborder">加入联盟</a>
+<a href="logging.php?action=login" onclick="showWindow('login', this.href);return false;">登录</a>
+</div>
+<div id="ad_headerbanner"><table width="700" height="88" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="20" colspan="8">
+	<form method="get" action="http://www.baidu.com/baidu" target="_blank">
+<input type="hidden" id="q6" name="q6" value="www.crazyit.org"/>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="50%" height="21"><marquee width="320">
+      <span style="color:red;font-size:11pt;font-weight:bold">本站特色:极好的技术研究氛围！所有技术发帖,必有回复!
+</span></marquee>
+    </td>
+    <td></td>
+    <td>
+      <input id="q1" name="q1" type="text" style="width:300px; height:14px;"/>
+</td>
+    <td><input type="image" src="crazyImages/s.jpg"/></td>
+  </tr>
+</table> 
+    </form>
+</td>
+  </tr>
+  <tr>
+<td width="340" valign="bottom"><span id="yeeku_flash" style="font-size:11pt;font-weight:bold;font-family:'黑体';color:#ff2222">做最受欢迎的Java论坛</span></td>
+<td width="70" rowspan="2"><div align="center"><a href="http://www.fkjava.org" target="_blank"><img 
+src="crazyImages/title/training.png" width="55" height="55" border="0"></a></div></td>
+<td width="70" rowspan="2"><div align="center"><a href="ethos.php"><img src="crazyImages/title/ethos.jpg" width="55" height="55" border="0"></a></div></td>
+<td width="70" rowspan="2"><div align="center"><a href="#"><img src="crazyImages/title/member.jpg" width="55" 
+height="55" border="0"></a></div></td>
+<td width="70" rowspan="2"><div align="center"><a href="http://www.crazyit.org/forum-16-1.html" target="_blank"><img src="crazyImages/title/book.jpg" width="55" height="55" border="0"></a></div></td>
+<td width="70" rowspan="2"><div align="center"><a href="http://blog.crazyit.org"><img 
+src="crazyImages/title/blog.jpg" width="55" height="55" border="0"></a></div></td>
+<td width="70" rowspan="2"><div align="center"><a href="ligangjianjie.php" 
+target="_blank"><img src="crazyImages/title/admin.png" width="55" height="55" border="0"></a></div></td>
+</tr>
+</table>
+<script language="javascript" src="crazyImages/yeeku_ad.js">
+</script>
+<div id='yeeku_right_ad' style='position:absolute;z-index:3000; width:500px;display:none'>
+<table width='100%' border='0' cellpadding='0' cellspacing='0'>
+	<tr>
+	<td width='47' height='20'><img src='crazyImages/right_ad/kk1.gif' width='47' border='0' height='20' /></td>
+	<td background='crazyImages/right_ad/kk2.gif'><span style='color:#FFFF99;font-weight:bold'>本站公告</span></td>
+	<td width='19'><a href='#' onClick='setCookie();return false;'><img src='crazyImages/right_ad/kk3.gif' alt='关闭' width='19' border='0' height='20' /></a></td>
+	</tr>
+</table>
+<table width='100%' border='0' cellpadding='0' cellspacing='0' height='249'>
+	<tr>
+	<td width='3' background='crazyImages/right_ad/kk8.gif'></td>
+	<td  width='494' valign='top'><script>document.writeln(AD_CONTENT);</script></td>
+	<td width='3' background='crazyImages/right_ad/kk9.gif'></td>
+	</tr>
+</table>
+<table width='100%' height='32' border='0' align='center' cellpadding='0' cellspacing='0'>
+	<tr>
+	<td width='7'><img src='crazyImages/right_ad/kk5.gif' width='7' height='32' /></td>
+	<td width='485' background='crazyImages/right_ad/kk4.gif'> </td>
+	<td width='7'><img src='yeeku_right_ad/kk6.gif' width='7' height='32' /></td>
+	</tr> 
+</table>
+</div>
+</div>
+<div id="menu">
+<ul>
+<li class="menu_1"><a href="index.php" hidefocus="true" id="mn_index">论坛</a></li><li class="menu_2"><a href="search.php" hidefocus="true" id="mn_search">搜索</a></li><li class="menu_6"><a href="http://blog.crazyit.org" hidefocus="true" id="mn_blog">博客</a></li><li class="menu_4"><a href="faq.php" hidefocus="true" id="mn_faq">帮助</a></li><li class="menu_5"><a href="misc.php?action=nav" hidefocus="true" onclick="showWindow('nav', this.href);return false;">导航</a></li></ul>
+<script type="text/javascript">
+var currentMenu = $('mn_') ? $('mn_') : $('mn_index');
+currentMenu.parentNode.className = 'current';
+</script>
+</div>
+<script type="text/javascript">
+function setstyle(styleid) {
+str = unescape('aid%3DMTY0NXxjNjBiYzNjN3wxMzE1NTQ2MjU5fGNhODlKVmpXVmhpNGlkWmVzR2JZbnluZWpqSllOd3JzckdodXJOMUpOWWt0aTJz%2C');
+str = str.replace(/(^|&)styleid=\d+/ig, '');
+str = (str != '' ? str + '&' : '') + 'styleid=' + styleid;
+location.href = 'attachment.php?' + str;
+}
+</script>
+<ul id="style_switch"><li><a href="###" onclick="setstyle(1)" title="默认风格" style="background: #1E4B7E;">默认风格</a></li><li class="current"><a href="###" onclick="setstyle(9)" title="blue" style="background: #244D8F;">blue</a></li><li><a href="###" onclick="setstyle(10)" title="brown" style="background: #996633;">brown</a></li><li><a href="###" onclick="setstyle(11)" title="gray" style="background: #505050;">gray</a></li><li><a href="###" onclick="setstyle(12)" title="green" style="background: #669900;">green</a></li><li><a href="###" onclick="setstyle(13)" title="greyish-green" style="background: #009B97;">greyish-green</a></li><li><a href="###" onclick="setstyle(14)" title="orange" style="background: #E77B0F;">orange</a></li><li><a href="###" onclick="setstyle(15)" title="pink" style="background: #CC3366;">pink</a></li><li><a href="###" onclick="setstyle(16)" title="purple" style="background: #602464;">purple</a></li><li><a href="###" onclick="setstyle(17)" title="red" style="background: #9B0000;">red</a></li><li><a href="###" onclick="setstyle(18)" title="violet" style="background: #6052A1;">violet</a></li><li><a href="###" onclick="setstyle(19)" title="默认风格_BQm5" style="background: #1E4B7E;">默认风格_BQm5</a></li></ul>
+</div>
+<div id="myprompt_menu" style="display:none" class="promptmenu">
+<div class="promptcontent">
+<ul class="s_clear"><li style="display:none"><a id="prompt_pm" href="pm.php?filter=newpm" target="_blank">私人消息 (0)</a></li><li style="display:none"><a id="prompt_announcepm" href="pm.php?filter=announcepm" target="_blank">公共消息 (0)</a></li><li style="display:none"><a id="prompt_systempm" href="notice.php?filter=systempm" target="_blank">系统消息 (0)</a></li><li style="display:none"><a id="prompt_friend" href="notice.php?filter=friend" target="_blank">好友消息 (0)</a></li><li style="display:none"><a id="prompt_threads" href="notice.php?filter=threads" target="_blank">帖子消息 (0)</a></li></ul>
+</div>
+</div>
+</div>
+<div id="nav"><a href="index.php">疯狂Java联盟</a> &raquo; 提示信息</div>
+
+<div id="wrap" class="wrap s_clear"><div class="main"><div class="content nofloat">
+<div class="fcontent alert_win">
+<h3 class="float_ctrl"><em>疯狂Java联盟 提示信息</em></h3>
+<hr class="shadowline" />
+<div class="postbox"><div class="alert_info">
+<p>附件文件不存在或无法读入，请与管理员联系。</p>
+</div></div>
+</div>
+</div></div></div>
+</div><div class="ad_footerbanner" id="ad_footerbanner1"></div>
+<div id="footer">
+<div class="wrap s_clear">
+<div id="footlink">
+<p>
+<strong><a href="http://www.crazyit.org" target="_blank">疯狂Java联盟</a></strong>
+( <a href="http://www.miibeian.gov.cn/" target="_blank">粤ICP备11063141号</a>)<span class="pipe">|</span><a href="mailto:crazyit.org@163.com">联系我们</a>
+<span class="pipe">|</span><a href="archiver/" target="_blank">Archiver</a><span class="pipe">|</span><a href="wap/" target="_blank">WAP</a><span class="pipe">| <script src="http://s84.cnzz.com/stat.php?id=1372712&web_id=1372712&show=pic" language="JavaScript"></script>
+
+<a href="http://www.gzjd.gov.cn/newgzjd/baojing/110.jsp?catid=318"><img src="http://www.pconline.com.cn/test/images/ktjc.gif"/></a><a href="http://guangzhou.cyberpolice.cn/netalarm/netalarm/wangjian_index.jsp"><img src="http://guangzhou.cyberpolice.cn/netalarm/netalarm/jj1.gif" width="40" height="52"/></a><a href="http://guangzhou.cyberpolice.cn/netalarm/netalarm/wangjian_index.jsp"><img src="http://guangzhou.cyberpolice.cn/netalarm/netalarm/cc1.gif" width="40" height="52"/></a></span></p>
+<p class="smalltext">
+GMT+8, 2017-5-21 05:54, <span id="debuginfo">Processed in 0.035682 second(s), 5 queries</span>.
+</p>
+</div>
+<div id="rightinfo">
+<p><strong><a href="http://www.crazyit.org" target="_blank">疯狂Java联盟</a></strong></p>
+<p class="smalltext">做最受欢迎的Java论坛！</p>
+</div></div>
+</div>
+</body>
+</html>
